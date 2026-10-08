@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-10-08T20:11:33.203Z",
+  "checkedOn": "2026-10-09",
+  "timezone": "Asia/Shanghai",
+  "direction": "ai-safety-evals-picks",
+  "method": "Direct HTTP fetch + the bundled reader decoder/parser; Electron-style UA; raw Qiaomu DTD guard checked separately",
+  "results": [
+    {
+      "id": "ai-safety-evals-picks",
+      "name": "AI安全与评测精选",
+      "feedUrl": "https://serennity007.github.io/ai-safety-evals-picks/feed.xml",
+      "finalUrl": "https://serennity007.github.io/ai-safety-evals-picks/feed.xml",
+      "ok": true,
+      "count": 6,
+      "format": "rss",
+      "bytes": 6250,
+      "newest": "2026-10-06",
+      "qiaomuGuardCompatible": true,
+      "sample": [
+        {
+          "title": "AI systems could cover up misbehavior",
+          "url": "https://metr.org/blog/2026-10-06-ai-systems-could-cover-up-misbehavior/",
+          "date": "Tue, 06 Oct 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Implementing and Evaluating a Basic Per-Action Monitor for Safer Evals",
+          "url": "https://metr.org/notes/2026-09-27-implementing-a-basic-blocking-action-monitor/",
+          "date": "Sun, 27 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Jailbreaking Qoder’s Cyber Safeguards",
+          "url": "https://www.far.ai/blog/jailbreaking-qoders-cyber-safeguards",
+          "date": "Fri, 18 Sep 2026 11:44:00 GMT"
+        },
+        {
+          "title": "1Password's AI patching benchmark is misleading",
+          "url": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
+          "date": "Tue, 15 Sep 2026 11:00:00 GMT"
+        },
+        {
+          "title": "CoT controllability evals seem very under-elicited",
+          "url": "https://blog.redwoodresearch.org/p/cot-controllability-evals-seem-very",
+          "date": "Fri, 11 Sep 2026 17:12:25 GMT"
+        },
+        {
+          "title": "Verbalizable Representations Form a Global Workspace in Language Models",
+          "url": "https://transformer-circuits.pub/2026/workspace/index.html",
+          "date": "Mon, 06 Jul 2026 00:00:00 GMT"
+        }
+      ]
+    }
+  ]
+}

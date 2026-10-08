@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-08T20:00:41.472Z",
+  "checkedAt": "2026-10-08T20:05:12.362Z",
   "checkedOn": "2026-10-09",
   "timezone": "Asia/Shanghai",
   "direction": "ai-safety-evals-picks",
@@ -8,9 +8,56 @@
     {
       "id": "metr",
       "name": "METR",
-      "feedUrl": "https://metr.substack.com/feed",
-      "ok": false,
-      "error": "fetch failed"
+      "feedUrl": "https://metr.org/feed.xml",
+      "finalUrl": "https://metr.org/feed.xml",
+      "ok": true,
+      "count": 104,
+      "format": "rss",
+      "bytes": 9051157,
+      "newest": "2026-10-06",
+      "qiaomuGuardCompatible": true,
+      "sample": [
+        {
+          "title": "AI systems could cover up misbehavior",
+          "url": "https://metr.org/blog/2026-10-06-ai-systems-could-cover-up-misbehavior/",
+          "date": "Tue, 06 Oct 2026 00:00:00 -0700"
+        },
+        {
+          "title": "Chris Painter's testimony to the U.S. Senate on AI agent incidents",
+          "url": "https://metr.org/blog/2026-09-30-chris-painter-senate-testimony/",
+          "date": "Wed, 30 Sep 2026 00:00:00 -0700"
+        },
+        {
+          "title": "Implementing and Evaluating a Basic Per-Action Monitor for Safer Evals",
+          "url": "https://metr.org/notes/2026-09-27-implementing-a-basic-blocking-action-monitor/",
+          "date": "Sun, 27 Sep 2026 00:00:00 -0700"
+        },
+        {
+          "title": "Summary of METR's predeployment evaluation of Claude Opus 5.5",
+          "url": "https://metr.org/blog/2026-09-22-claude-opus-5-5/",
+          "date": "Tue, 22 Sep 2026 00:00:00 -0700"
+        },
+        {
+          "title": "Update on Security at METR",
+          "url": "https://metr.org/blog/2026-08-31-security-update/",
+          "date": "Mon, 31 Aug 2026 00:00:00 -0700"
+        },
+        {
+          "title": "对 OpenAI / Hugging Face 入侵事件中智能体行为、推理与协作的简要独立调查",
+          "url": "https://metr.org/zh-Hans/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+          "date": "Wed, 26 Aug 2026 00:00:00 -0700"
+        },
+        {
+          "title": "Breve investigación independiente sobre el comportamiento, el razonamiento y la colaboración de los agentes en el incidente de hackeo de OpenAI / Hugging Face",
+          "url": "https://metr.org/es/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+          "date": "Wed, 26 Aug 2026 00:00:00 -0700"
+        },
+        {
+          "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
+          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+          "date": "Wed, 26 Aug 2026 00:00:00 -0700"
+        }
+      ]
     },
     {
       "id": "redwood",

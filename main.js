@@ -37,7 +37,7 @@ var CURATED_FEEDS = [
     "name": "AI\u5B89\u5168\u4E0E\u8BC4\u6D4B\u7CBE\u9009",
     "category": "article",
     "siteUrl": "https://github.com/Serennity007/ai-safety-evals-picks",
-    "feedUrl": "https://raw.githubusercontent.com/Serennity007/ai-safety-evals-picks/main/feed.xml",
+    "feedUrl": "https://serennity007.github.io/ai-safety-evals-picks/feed.xml",
     "note": "\u4EBA\u5DE5\u9010\u7BC7\u7CBE\u9009\uFF0C\u9644\u539F\u521B\u6458\u8981\u4E0E\u63A8\u8350\u7406\u7531\uFF1B\u5BA1\u6838\u5E76\u63D0\u4EA4\u540E\u624D\u66F4\u65B0"
   }
 ];

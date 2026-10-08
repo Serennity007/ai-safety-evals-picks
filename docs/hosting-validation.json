@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-08T20:11:33.203Z",
+  "localRss": "pass",
+  "localOpml": "pass",
+  "originalRawEndpoint": "https://raw.githubusercontent.com/Serennity007/ai-safety-evals-picks/main/feed.xml",
+  "originalRawResult": "Native node fetch and curl direct connection timed out in this environment",
+  "endpoint": "https://serennity007.github.io/ai-safety-evals-picks/feed.xml",
+  "online": {
+    "passed": true,
+    "parsedEntries": 6,
+    "bytes": 6250,
+    "endpoint": "https://serennity007.github.io/ai-safety-evals-picks/feed.xml"
+  }
+}

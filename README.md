@@ -2,7 +2,7 @@
 
 **LLM 评测、可靠性、可解释性、对齐与安全实验**。正涛维护的方向精选，沿用 [正涛精选](https://github.com/Serennity007/zhengtao-picks) 的轻量阅读器框架。
 
-独立方向仓库、独立精选 RSS、独立插件 ID。默认仅订阅本仓库逐篇审核的 [feed.xml](https://raw.githubusercontent.com/Serennity007/ai-safety-evals-picks/main/feed.xml)。
+独立方向仓库、独立精选 RSS、独立插件 ID。默认仅订阅本仓库逐篇审核的 [feed.xml](https://serennity007.github.io/ai-safety-evals-picks/feed.xml)。
 
 ## 精选标准
 
@@ -15,7 +15,7 @@
 
 ## 与正涛精选并列
 
-1. 在支持置顶的 [Zhengtao AI Pick](https://github.com/Serennity007/zhengtao-ai-pick) 中导入本仓库 [feeds.opml](https://raw.githubusercontent.com/Serennity007/ai-safety-evals-picks/main/feeds.opml)。
+1. 在支持置顶的 [Zhengtao AI Pick](https://github.com/Serennity007/zhengtao-ai-pick) 中导入本仓库 [feeds.opml](https://serennity007.github.io/ai-safety-evals-picks/feeds.opml)。
 2. 得到「AI安全与评测精选」分组，在分组菜单点击 **置顶为独立频道**。
 3. 它与「正涛精选」处于同一级。每个方向只导入一条独立精选 RSS，避免原站 RSS 在分组之间抢归属。
 

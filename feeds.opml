@@ -3,7 +3,7 @@
   <head><title>AI安全与评测精选</title></head>
   <body>
     <outline text="AI安全与评测精选" title="AI安全与评测精选">
-      <outline type="rss" text="AI安全与评测精选" title="AI安全与评测精选" xmlUrl="https://raw.githubusercontent.com/Serennity007/ai-safety-evals-picks/main/feed.xml" htmlUrl="https://github.com/Serennity007/ai-safety-evals-picks"/>
+      <outline type="rss" text="AI安全与评测精选" title="AI安全与评测精选" xmlUrl="https://serennity007.github.io/ai-safety-evals-picks/feed.xml" htmlUrl="https://github.com/Serennity007/ai-safety-evals-picks"/>
     </outline>
   </body>
 </opml>

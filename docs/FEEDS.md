@@ -1,12 +1,12 @@
 # AI安全与评测精选来源池
 
-默认只订阅本仓库的 [人工精选 RSS](https://raw.githubusercontent.com/Serennity007/ai-safety-evals-picks/main/feed.xml)。来源池只供维护者发现候选，不整源导入。不收泛伦理新闻、未经验证的风险论断和宽泛社区信息流。
+默认只订阅本仓库的 [人工精选 RSS](https://serennity007.github.io/ai-safety-evals-picks/feed.xml)。来源池只供维护者发现候选，不整源导入。不收泛伦理新闻、未经验证的风险论断和宽泛社区信息流。
 
 由 src/feeds.js 自动生成；混合来源中的宣传、公告和跑题文章逐篇排除。源可抓取不代表所有文章应进入频道。
 
 | 来源 | 为什么参考 | 质量依据 | 代表文章 | 候选订阅 |
 | --- | --- | --- | --- | --- |
-| METR | 独立模型评测团队的一手实验与工程记录。采用官网直接链接的官方 Substack：20 条、最新 2026-10-06、1,033,291 字节；官网 feed.xml 为 104 条、9,051,157 字节，且混合多语言转载，避免作默认整源订阅。 | 作者实际部署动作监控并评估误报、漏报、注入和人工审核失效；明示证据不足与工程限制。官网确认官方 Substack 归属。 | [Implementing and Evaluating a Basic Per-Action Monitor for Safer Evals](https://metr.org/notes/2026-09-27-implementing-a-basic-blocking-action-monitor/) | [候选 RSS](https://metr.substack.com/feed) |
+| METR | 独立模型评测团队的一手实验与工程记录。候选池采用官网 RSS：104 条、最新 2026-10-06、9,051,157 字节，含多语言转载，不作为默认整源订阅。官方 Substack 曾用 urllib 抓取成功，但本机原生 Node 重复连接超时，故改用已通过原生 Node 与阅读器解析的官网地址。 | 作者实际部署动作监控并评估误报、漏报、注入和人工审核失效；明示证据不足与工程限制。官网确认官方 Substack 归属。 | [Implementing and Evaluating a Basic Per-Action Monitor for Safer Evals](https://metr.org/notes/2026-09-27-implementing-a-basic-blocking-action-monitor/) | [候选 RSS](https://metr.org/feed.xml) |
 | Redwood Research | AI control、CoT 监督和评测 elicitation 的研究者博客。20 条、最新 2026-10-05、1,331,732 字节；也有研究观点与理论讨论，因此文章层筛选具体方法和实验。 | 原始实验对 4 个模型、9 类 CoT 控制任务进行提示词优化并检查未见模式泛化，报告准确率和推理长度的副作用；机构官网链接该博客。 | [CoT controllability evals seem very under-elicited](https://blog.redwoodresearch.org/p/cot-controllability-evals-seem-very) | [候选 RSS](https://blog.redwoodresearch.org/feed) |
 | Transformer Circuits | 官方 Atom，56 条、最新 2026-08-21、25,516 字节。近期以 LLM 内部表示、解释工具和因果干预为主；历史研究包含视觉神经网络，候选池保留，精选文章只选语言模型技术。 | 原始可解释性论文，给出 Jacobian lens 的构建、读取与干预实验，并明确单 token 概念和其他覆盖局限；首页直接声明 Atom 地址。 | [Verbalizable Representations Form a Global Workspace in Language Models](https://transformer-circuits.pub/2026/workspace/index.html) | [候选 RSS](https://transformer-circuits.pub/feed.xml) |
 | FAR.AI | 仅候选池，不整源订阅。官方 RSS 55 条、最新 2026-09-22、45,767 字节；最近 25 条约 11 条技术实验、工具或评测方法，其余多为会议、资助、奖项与政策传播。只纳入逐篇核查的原始实验。 | Qoder 论文明确列出 4 个模型、30 项测试、逐任务判分和披露边界；同时该机构整源噪声偏高，不能凭一篇好文章把全部新闻收入精选。 | [Jailbreaking Qoder’s Cyber Safeguards](https://www.far.ai/blog/jailbreaking-qoders-cyber-safeguards) | [候选 RSS](https://www.far.ai/blog/rss.xml) |

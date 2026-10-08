@@ -1,12 +1,12 @@
 # AI安全与评测精选候选来源真实抓取验证
 
-验证日期：2026-10-09（Asia/Shanghai）。时间戳：2026-10-08T20:00:41.472Z。
+验证日期：2026-10-09（Asia/Shanghai）。时间戳：2026-10-08T20:05:12.362Z。
 
 直接请求源站，复用本阅读器的解码与解析函数；使用 Electron 风格 UA。结果不代表 Obsidian 实际 UI 验证。乔木列只检测其当前原始字符串 DTD 守卫，不宣称已执行乔木完整解析器。候选池可能含边缘主题，样本不等于已经选入；默认频道只展示 picks.js 中审核的文章。
 
 | 源 | 结果 | 条目数 | 最新条目日期 | 乔木 DTD 守卫 |
 | --- | --- | --- | --- | --- |
-| METR | 失败：fetch failed | — | 无日期 | 未判定 |
+| METR | 可抓取/可解析 | 104 | 2026-10-06 | 通过原始字符串守卫 |
 | Redwood Research | 可抓取/可解析 | 20 | 2026-10-05 | 通过原始字符串守卫 |
 | Transformer Circuits | 可抓取/可解析 | 56 | 2026-08-21 | 通过原始字符串守卫 |
 | FAR.AI | 可抓取/可解析 | 55 | 2026-09-22 | 通过原始字符串守卫 |
@@ -15,6 +15,17 @@
 日期与文章样本来自实时源站；如源站时间偏离当前日期，需人工核对，脚本不修正源站数据。
 
 ## 用于方向复核的实际样本
+
+### METR
+
+- [AI systems could cover up misbehavior](https://metr.org/blog/2026-10-06-ai-systems-could-cover-up-misbehavior/) — Tue, 06 Oct 2026 00:00:00 -0700
+- [Chris Painter's testimony to the U.S. Senate on AI agent incidents](https://metr.org/blog/2026-09-30-chris-painter-senate-testimony/) — Wed, 30 Sep 2026 00:00:00 -0700
+- [Implementing and Evaluating a Basic Per-Action Monitor for Safer Evals](https://metr.org/notes/2026-09-27-implementing-a-basic-blocking-action-monitor/) — Sun, 27 Sep 2026 00:00:00 -0700
+- [Summary of METR's predeployment evaluation of Claude Opus 5.5](https://metr.org/blog/2026-09-22-claude-opus-5-5/) — Tue, 22 Sep 2026 00:00:00 -0700
+- [Update on Security at METR](https://metr.org/blog/2026-08-31-security-update/) — Mon, 31 Aug 2026 00:00:00 -0700
+- [对 OpenAI / Hugging Face 入侵事件中智能体行为、推理与协作的简要独立调查](https://metr.org/zh-Hans/blog/2026-08-26-openai-hugging-face-incident-investigation/) — Wed, 26 Aug 2026 00:00:00 -0700
+- [Breve investigación independiente sobre el comportamiento, el razonamiento y la colaboración de los agentes en el incidente de hackeo de OpenAI / Hugging Face](https://metr.org/es/blog/2026-08-26-openai-hugging-face-incident-investigation/) — Wed, 26 Aug 2026 00:00:00 -0700
+- [Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) — Wed, 26 Aug 2026 00:00:00 -0700
 
 ### Redwood Research
 

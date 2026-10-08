@@ -4,7 +4,7 @@
   "title": "AI安全与评测精选",
   "scope": "LLM 评测、可靠性、可解释性、对齐与安全实验",
   "curatedOn": "2026-10-09",
-  "feedUrl": "https://raw.githubusercontent.com/Serennity007/ai-safety-evals-picks/main/feed.xml",
+  "feedUrl": "https://serennity007.github.io/ai-safety-evals-picks/feed.xml",
   "picks": [
     {
       "id": "metr-inspect-observability-20261006",
@@ -66,14 +66,14 @@
       "id": "metr",
       "name": "METR",
       "siteUrl": "https://metr.org/",
-      "feedUrl": "https://metr.substack.com/feed",
-      "note": "独立模型评测团队的一手实验与工程记录。采用官网直接链接的官方 Substack：20 条、最新 2026-10-06、1,033,291 字节；官网 feed.xml 为 104 条、9,051,157 字节，且混合多语言转载，避免作默认整源订阅。",
+      "feedUrl": "https://metr.org/feed.xml",
+      "note": "独立模型评测团队的一手实验与工程记录。候选池采用官网 RSS：104 条、最新 2026-10-06、9,051,157 字节，含多语言转载，不作为默认整源订阅。官方 Substack 曾用 urllib 抓取成功，但本机原生 Node 重复连接超时，故改用已通过原生 Node 与阅读器解析的官网地址。",
       "quality": "作者实际部署动作监控并评估误报、漏报、注入和人工审核失效；明示证据不足与工程限制。官网确认官方 Substack 归属。",
       "evidenceUrl": "https://metr.org/notes/2026-09-27-implementing-a-basic-blocking-action-monitor/",
       "evidenceTitle": "Implementing and Evaluating a Basic Per-Action Monitor for Safer Evals",
-      "liveItems": 20,
+      "liveItems": 104,
       "latest": "2026-10-06T07:00:00Z",
-      "bytes": 1033291,
+      "bytes": 9051157,
       "defaultSubscription": false
     },
     {

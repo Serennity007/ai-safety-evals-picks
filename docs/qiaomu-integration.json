@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-10-08T20:10:33.867Z",
+  "actualParser": "zhengtao-ai-pick/src/feeds.ts",
+  "actualLibrary": "zhengtao-ai-pick/src/personal-library.ts",
+  "vaultModified": false,
+  "results": [
+    {
+      "id": "llm-research-picks",
+      "title": "大模型研究精选",
+      "entries": 6,
+      "importCount": 1,
+      "pinnedById": true
+    },
+    {
+      "id": "llm-systems-picks",
+      "title": "AI工程精选",
+      "entries": 8,
+      "importCount": 1,
+      "pinnedById": true
+    },
+    {
+      "id": "ai-coding-picks",
+      "title": "AI编程精选",
+      "entries": 6,
+      "importCount": 1,
+      "pinnedById": true
+    },
+    {
+      "id": "ai-safety-evals-picks",
+      "title": "AI安全与评测精选",
+      "entries": 6,
+      "importCount": 1,
+      "pinnedById": true
+    }
+  ],
+  "aggregateGroups": 4
+}
