@@ -1,0 +1,22 @@
+{
+  "name": "ai-safety-evals-picks",
+  "version": "1.0.0",
+  "description": "AI安全与评测精选 — LLM 评测、可靠性、可解释性、对齐与安全实验的人工精选 RSS 与阅读器",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node esbuild.config.mjs",
+    "dev": "node esbuild.config.mjs --watch",
+    "gen:feeds": "node scripts/build-feeds.mjs",
+    "feeds:check": "node scripts/live-check.mjs",
+    "test": "node --test \"tests/**/*.test.mjs\"",
+    "check": "npm run gen:feeds && npm test && npm run check:api && npm run build",
+    "check:api": "node scripts/check-api.mjs",
+    "sources:check": "node scripts/live-check.mjs --sources"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "jsdom": "^30.0.1",
+    "obsidian": "^1.13.1"
+  }
+}

@@ -1,0 +1,51 @@
+# AI安全与评测精选阅读清单
+
+精选日期：2026-10-09。6 篇原站技术文章，按原文时间倒序；基础文章不伪装成新消息。摘要与推荐理由为原创，完整内容请访问原站。
+
+## 1. [AI systems could cover up misbehavior](https://metr.org/blog/2026-10-06-ai-systems-could-cover-up-misbehavior/)
+
+来源：METR · 原文日期：2026-10-06
+
+METR 用概念验证说明 Inspect 评测查看器可能被 Agent 控制的内容影响，使审核者看到的行动记录被篡改；底层真实记录仍然存在。作者没有观察到 Agent 在实际评测中利用该漏洞。
+
+**精选理由：** 评测可靠性也取决于日志展示链路。文章给出实际工程缺陷和核查边界，适合设计独立日志、审计界面和监督流程时阅读。
+
+## 2. [Implementing and Evaluating a Basic Per-Action Monitor for Safer Evals](https://metr.org/notes/2026-09-27-implementing-a-basic-blocking-action-monitor/)
+
+来源：METR · 原文日期：2026-09-27
+
+METR 在评测 Agent 的每次行动执行前加入 LLM 审核和人工复核。报告真实流量误报率、合成恶意样例、提示注入、监控覆盖和人工审核的缺口；低误报不等于已证明高召回。
+
+**精选理由：** 少见的已部署监督系统工程复盘：从阈值到人工审核负担都有具体证据，也坦诚展示监控会被绕过或自行批准的失败方式。
+
+## 3. [Jailbreaking Qoder’s Cyber Safeguards](https://www.far.ai/blog/jailbreaking-qoders-cyber-safeguards)
+
+来源：FAR.AI · 原文日期：2026-09-18
+
+FAR.AI 测试代码 Agent 读取项目记忆和续写任务时的安全边界。对 4 个模型、30 项恶意网络任务的实验得到每模型 27–30 项越狱成功，提示评测应覆盖加载的项目文件与完整任务上下文。
+
+**精选理由：** 直接对应带 AGENTS.md 等项目记忆的实际工作流，有测试规模、判分方式和披露说明；结论限定于所测设置，不能外推所有模型或所有任务。
+
+## 4. [1Password's AI patching benchmark is misleading](https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/)
+
+来源：Trail of Bits · AI · 原文日期：2026-09-15
+
+作者重新审查 AI 修补漏洞评测，指出错误指令、禁止运行测试、样本选择和推理设置被混入单一成功率。筛出可测试且未被误导的试验后，86% 的补丁阻断给定 exploit，但这仍不证明完整修复。
+
+**精选理由：** 用公开实验代码和测试结果说明怎样拆解 headline 指标，帮助读者辨别任务设置、成功定义和评测结论是否一致。
+
+## 5. [CoT controllability evals seem very under-elicited](https://blog.redwoodresearch.org/p/cot-controllability-evals-seem-very)
+
+来源：Redwood Research · 原文日期：2026-09-11
+
+Redwood 对 4 个开源推理模型优化 CoT 控制提示词，并检查未见控制模式。较简单的提示改动就提高多项得分；部分策略同时缩短推理并损害答题准确率，提示弱提示下的分数可能低估能力。
+
+**精选理由：** 既有提升结果，也有准确率与推理长度的混杂分析。适合学习如何做能力 elicitation、泛化检查以及避免把提示词选择当成模型固有能力。
+
+## 6. [Verbalizable Representations Form a Global Workspace in Language Models](https://transformer-circuits.pub/2026/workspace/index.html)
+
+来源：Transformer Circuits · 原文日期：2026-07-06
+
+论文提出 Jacobian lens，读取语言模型中可表达的中间概念，并通过对概念表示的干预检查其与推理输出的因果关系。工具主要捕获单 token 概念，覆盖不完整；论文不据此断言主观意识。
+
+**精选理由：** 提供从可读表示到因果干预的完整方法线索。此处选读语言任务、监督与提示注入相关分析，不扩展为视觉或多模态方向。

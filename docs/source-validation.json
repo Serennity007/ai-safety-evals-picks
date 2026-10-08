@@ -1,0 +1,212 @@
+{
+  "checkedAt": "2026-10-08T20:00:41.472Z",
+  "checkedOn": "2026-10-09",
+  "timezone": "Asia/Shanghai",
+  "direction": "ai-safety-evals-picks",
+  "method": "Direct HTTP fetch + the bundled reader decoder/parser; Electron-style UA; raw Qiaomu DTD guard checked separately",
+  "results": [
+    {
+      "id": "metr",
+      "name": "METR",
+      "feedUrl": "https://metr.substack.com/feed",
+      "ok": false,
+      "error": "fetch failed"
+    },
+    {
+      "id": "redwood",
+      "name": "Redwood Research",
+      "feedUrl": "https://blog.redwoodresearch.org/feed",
+      "finalUrl": "https://blog.redwoodresearch.org/feed",
+      "ok": true,
+      "count": 20,
+      "format": "rss",
+      "bytes": 1331732,
+      "newest": "2026-10-05",
+      "qiaomuGuardCompatible": true,
+      "sample": [
+        {
+          "title": "Frontier models state different decision theory preferences depending on who’s asking",
+          "url": "https://blog.redwoodresearch.org/p/frontier-models-state-different-decision",
+          "date": "Mon, 05 Oct 2026 22:04:23 GMT"
+        },
+        {
+          "title": "Capabilities research expands the safety-usefulness Pareto frontier too",
+          "url": "https://blog.redwoodresearch.org/p/capabilities-research-expands-the",
+          "date": "Fri, 02 Oct 2026 18:22:37 GMT"
+        },
+        {
+          "title": "Continual learning might make your blocking monitors nearly useless",
+          "url": "https://blog.redwoodresearch.org/p/continual-learning-might-make-your",
+          "date": "Fri, 25 Sep 2026 01:15:10 GMT"
+        },
+        {
+          "title": "Latent reasoning architectures would likely undermine CoT, our strongest oversight tool",
+          "url": "https://blog.redwoodresearch.org/p/latent-reasoning-architectures-would",
+          "date": "Wed, 23 Sep 2026 18:05:28 GMT"
+        },
+        {
+          "title": "Astra is much better at reasoning with filler tokens than previous models",
+          "url": "https://blog.redwoodresearch.org/p/astra-is-much-better-at-reasoning",
+          "date": "Wed, 23 Sep 2026 00:25:40 GMT"
+        },
+        {
+          "title": "CoT controllability evals seem very under-elicited",
+          "url": "https://blog.redwoodresearch.org/p/cot-controllability-evals-seem-very",
+          "date": "Fri, 11 Sep 2026 17:12:25 GMT"
+        },
+        {
+          "title": "An operationalization of opaque serial depth",
+          "url": "https://blog.redwoodresearch.org/p/an-operationalization-of-opaque-serial",
+          "date": "Thu, 10 Sep 2026 18:40:20 GMT"
+        },
+        {
+          "title": "Proposal for tracking the effects of architecture on monitorability",
+          "url": "https://blog.redwoodresearch.org/p/proposal-for-tracking-the-effects",
+          "date": "Thu, 10 Sep 2026 18:13:53 GMT"
+        }
+      ]
+    },
+    {
+      "id": "transformer-circuits",
+      "name": "Transformer Circuits",
+      "feedUrl": "https://transformer-circuits.pub/feed.xml",
+      "finalUrl": "https://transformer-circuits.pub/feed.xml",
+      "ok": true,
+      "count": 56,
+      "format": "feed",
+      "bytes": 25516,
+      "newest": "2026-08-21",
+      "qiaomuGuardCompatible": true,
+      "sample": [
+        {
+          "title": "Characterizing interference weights in a tiny language model",
+          "url": "https://transformer-circuits.pub/2026/interference_effectiveness_helpfulness/index.html",
+          "date": "2026-08-21T00:00:00+00:00"
+        },
+        {
+          "title": "Verbalizable Representations Form a Global Workspace in Language Models",
+          "url": "https://transformer-circuits.pub/2026/workspace/index.html",
+          "date": "2026-07-06T00:00:00+00:00"
+        },
+        {
+          "title": "Circuits Updates — June 2026",
+          "url": "https://transformer-circuits.pub/2026/june-update/index.html",
+          "date": "2026-06-30T00:00:00+00:00"
+        },
+        {
+          "title": "Circuits Updates — May 2026",
+          "url": "https://transformer-circuits.pub/2026/may-update/index.html",
+          "date": "2026-06-01T00:00:00+00:00"
+        },
+        {
+          "title": "Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations",
+          "url": "https://transformer-circuits.pub/2026/nla/index.html",
+          "date": "2026-05-07T00:00:00+00:00"
+        },
+        {
+          "title": "HeadVis",
+          "url": "https://transformer-circuits.pub/2026/headvis/index.html",
+          "date": "2026-05-04T00:00:00+00:00"
+        },
+        {
+          "title": "Emotion Concepts and their Function in a Large Language Model",
+          "url": "https://transformer-circuits.pub/2026/emotions/index.html",
+          "date": "2026-04-02T00:00:00+00:00"
+        },
+        {
+          "title": "Circuits Cross-Post — Activation Oracles",
+          "url": "https://alignment.anthropic.com/2025/activation-oracles/",
+          "date": "2025-12-19T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "far-ai",
+      "name": "FAR.AI",
+      "feedUrl": "https://www.far.ai/blog/rss.xml",
+      "finalUrl": "https://www.far.ai/blog/rss.xml",
+      "ok": true,
+      "count": 55,
+      "format": "rss",
+      "bytes": 45767,
+      "newest": "2026-09-22",
+      "qiaomuGuardCompatible": true,
+      "sample": [
+        {
+          "title": "AI-enabled terrorism: Addressing radicalization and CBRN risks in the age of LLMs | FAR.AI",
+          "url": "https://www.far.ai/blog/ai-enabled-terrorism-unga-81",
+          "date": "Tue, 22 Sep 2026 12:00:00 GMT"
+        },
+        {
+          "title": "Jailbreaking Qoder’s Cyber Safeguards | FAR.AI",
+          "url": "https://www.far.ai/blog/jailbreaking-qoders-cyber-safeguards",
+          "date": "Fri, 18 Sep 2026 11:44:00 GMT"
+        },
+        {
+          "title": "Persuasion Undermining Control: Can AI Talk its Way Out of Human Control? | FAR.AI",
+          "url": "https://www.far.ai/blog/persuasion-undermining-control",
+          "date": "Thu, 17 Sep 2026 19:03:00 GMT"
+        },
+        {
+          "title": "Introducing the AI Security Leaderboard: Frontier AI Is Only as Safe as Its Weakest Model | FAR.AI",
+          "url": "https://www.far.ai/blog/ai-security-leaderboard",
+          "date": "Wed, 29 Jul 2026 22:00:00 GMT"
+        },
+        {
+          "title": "Seoul Alignment Workshop 2026: What We Learned | FAR.AI",
+          "url": "https://www.far.ai/blog/seoul-alignment-workshop-2026",
+          "date": "Tue, 28 Jul 2026 17:31:00 GMT"
+        },
+        {
+          "title": "Scaling Trends for Lie Detector Oversight in Preference Learning | FAR.AI",
+          "url": "https://www.far.ai/blog/scaling-solid",
+          "date": "Wed, 01 Jul 2026 00:00:00 GMT"
+        },
+        {
+          "title": "AViD Workshop 2026 | FAR.AI",
+          "url": "https://www.far.ai/blog/avid-workshop-2026",
+          "date": "Mon, 01 Jun 2026 00:00:00 GMT"
+        },
+        {
+          "title": "Security Stress Test: Exposing the Brittleness of DeepSeek-V4-Pro’s Safeguards | FAR.AI",
+          "url": "https://www.far.ai/blog/security-stress-test-deepseek-v4-pros-safeguards",
+          "date": "Tue, 12 May 2026 00:00:00 GMT"
+        }
+      ]
+    },
+    {
+      "id": "trail-of-bits-ai",
+      "name": "Trail of Bits · AI",
+      "feedUrl": "https://blog.trailofbits.com/categories/ai/index.xml",
+      "finalUrl": "https://blog.trailofbits.com/categories/ai/index.xml",
+      "ok": true,
+      "count": 4,
+      "format": "rss",
+      "bytes": 2601,
+      "newest": "2026-09-18",
+      "qiaomuGuardCompatible": true,
+      "sample": [
+        {
+          "title": "Auditing in the age of (good enough) AI",
+          "url": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/",
+          "date": "Fri, 18 Sep 2026 07:00:00 -0400"
+        },
+        {
+          "title": "1Password's AI patching benchmark is misleading",
+          "url": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
+          "date": "Tue, 15 Sep 2026 07:00:00 -0400"
+        },
+        {
+          "title": "VMs won't contain cyber-capable agents",
+          "url": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
+          "date": "Wed, 26 Aug 2026 07:00:00 -0400"
+        },
+        {
+          "title": "How we made Trail of Bits AI-native (so far)",
+          "url": "https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/",
+          "date": "Tue, 31 Mar 2026 07:00:00 -0400"
+        }
+      ]
+    }
+  ]
+}
